@@ -8,4 +8,4 @@ def square_matrix_simple(matrix=[]):
          Each value should be the square of the value of the input
     """
 
-    return ([list(map(lambda x: x * x, row)) for row in matrix])
+     return ([list(map(lambda x: x * x, row)) for row in matrix])
