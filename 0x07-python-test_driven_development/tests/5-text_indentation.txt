@@ -1,0 +1,39 @@
+=================================
+How to Use 5-text_indentation.py
+=================================
+
+This module prints a text with 2 new lines after each of these
+characters: ., ? and :``text_indentation(text)``.
+
+Usage
+=====
+
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+>>> text_indentation("")
+>>> text_indentation("lorem.  ipsum  ")
+lorem.
+<BLANKLINE>
+ipsum
+>>> text_indentation(2)
+Traceback (most recent call last):
+	...
+
+FAILED CASES:
+TypeError: text must be a string
+>>> text_indentation(" lorem")
+lorem
+>>> text_indentation("lorem ipsum. lorem.  ")
+lorem ipsum.
+<BLANKLINE>
+lorem.
+<BLANKLINE>
+>>> text_indentation(".")
+.
+<BLANKLINE>
+>>> text_indentation(".?:")
+.
+<BLANKLINE>
+?
+<BLANKLINE>
+:
+<BLANKLINE>
