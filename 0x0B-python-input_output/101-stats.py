@@ -8,6 +8,7 @@ def print_stats(size, stat_code):
     for k in sorted(stat_code):
         print("{}: {}".format(k, stat_code[k]))
 
+
 if __name__ == "__main__":
     import sys
 
