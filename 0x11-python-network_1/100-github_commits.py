@@ -19,4 +19,3 @@ if __name__ == "__main__":
                 cmmts[j].get("commit").get("author").get("name")))
     except IndexError:
         pass
-
